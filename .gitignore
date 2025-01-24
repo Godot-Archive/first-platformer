@@ -1,0 +1,45 @@
+# Godot 4+ specific ignores
+.godot/
+.android/
+.import/
+export/
+
+# Build artifacts
+/bin/
+*.exe
+*.dll
+*.pdb
+*.so
+*.dylib
+*.class
+*.jar
+
+# Exported builds
+*.apk
+*.ipa
+*.zip
+*.tar
+*.7z
+
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and crash reports
+*.log
+*.stackdump
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.iml
+
+# Godot export presets
+export_presets.cfg

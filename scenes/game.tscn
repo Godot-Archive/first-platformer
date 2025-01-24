@@ -301,8 +301,10 @@ libraries = {
 }
 autoplay = "move"
 
-[node name="Slime" parent="." instance=ExtResource("6_wntks")]
+[node name="Enimes" type="Node" parent="."]
+
+[node name="Slime" parent="Enimes" instance=ExtResource("6_wntks")]
 position = Vector2(311, 93)
 
-[node name="Slime2" parent="." instance=ExtResource("6_wntks")]
+[node name="Slime2" parent="Enimes" instance=ExtResource("6_wntks")]
 position = Vector2(231, 61)
